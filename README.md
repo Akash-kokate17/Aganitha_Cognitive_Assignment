@@ -24,7 +24,7 @@ A React-based application that allows users to search for recipes by ingredient.
 - **TheMealDB API**: Recipe API for ingredient-based search.
 
 ## Live Demo
-Try the app live here: [Recipe Finder App](https://your-live-demo-link.com)
+Try the app live here: [Recipe Finder App]( https://app.netlify.com/sites/aganithaproject/deploys/672c5050275c4aeed4e5f166 )
 
 ## Installation
 Follow these steps to set up the project locally:
