@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.appContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  font-family: Arial, sans-serif;
+  margin: auto;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.searchBar {
+  margin: 20px 0;
+}
+
+.searchBar input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.searchBar button {
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.searchBar button:hover {
+  background-color: #218838;
+}
+
+.recipeGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .appContainer {
+    padding: 0 10px;
+  }
+
+  .recipeGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hi;
+  }
+
+  .searchBar input {
+    width: 150px;
+  }
+}

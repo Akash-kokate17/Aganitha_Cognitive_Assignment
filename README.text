@@ -1,0 +1,37 @@
+Recipe App:
+
+Description:
+The Recipe App allows users to search for recipes based on a specific ingredient. It uses the TheMealDB API to fetch recipes that contain the given ingredient. The app is responsive, with a grid layout that adapts to various screen sizes, ensuring a smooth user experience on both desktop and mobile devices.
+
+Features:
+Ingredient-based search: Users can enter an ingredient (e.g., "chicken", "pasta", "beef") and get a list of recipes containing that ingredient.
+Responsive design: The app is fully responsive, adjusting to different screen sizes and displaying the recipes in a grid layout.
+Link to recipe details: Each recipe card provides a link to the full recipe on TheMealDB.
+Technologies Used
+React: JavaScript library for building user interfaces.
+Axios: Used for making API requests to fetch recipes.
+CSS Modules: Scoped styling for components to avoid naming collisions.
+TheMealDB API: The API used to retrieve recipes based on ingredients.
+Live Demo
+You can try out the app live here: [Insert live demo link if available]
+
+Setup & Installation:
+Follow these steps to set up and run the project locally:
+
+Prerequisites:
+Before you begin, ensure you have the following installed:
+
+Node.js (v14 or later)
+npm (or yarn, depending on your package manager preference)
+
+Steps:
+
+1 Clone the repository:
+git clone https://github.com/your-username/recipe-app.git
+cd recipe-app
+
+2 Install dependencies:
+npm install
+
+3 Run the development server:
+npm start
